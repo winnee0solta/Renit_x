@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.winnee.renit_x.Security.Register">
+    <include layout="@layout/main_toolbarv2"
+        android:id="@+id/register_app_bar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_below="@+id/register_app_bar">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginBottom="19dp"
+                android:layout_above="@+id/maincardview"
+                android:layout_centerHorizontal="true" />
+            <android.support.v7.widget.CardView
+                android:id="@+id/maincardview"
+                app:contentPadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="30dp"
+                app:cardElevation="11dp"
+                app:cardCornerRadius="6dp"
+                android:background="@color/bar_dribble"
+                app:cardBackgroundColor="#EDEDEE"
+                >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.2dp"
+                        />
+
+
+                    <EditText
+                        android:id="@+id/editTextUsername"
+                        style="@style/EditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:drawableLeft="@drawable/ic_person_black_24dp"
+                        android:drawablePadding="9dp"
+                        android:fontFamily="roboto"
+                        android:hint="Username"
+                        android:padding="10dp"
+                        android:textColor="@color/bar_dribble"
+                        android:textColorHint="@color/bar_dribble"
+                        />
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.2dp"
+                        />
+
+
+                    <EditText
+                        android:id="@+id/editTextEmail"
+                        style="@style/EditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:drawableLeft="@drawable/ic_mail_black_24dp"
+                        android:drawablePadding="9dp"
+                        android:fontFamily="roboto"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"
+                        android:padding="10dp"
+                        android:textColor="@color/bar_dribble"
+                        android:textColorHint="@color/bar_dribble"
+                        />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.2dp"
+                        />
+
+                    <EditText
+                        android:textSize="18sp"
+                        android:id="@+id/editTextPassword"
+                        style="@style/EditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:drawableLeft="@drawable/ic_lock_black_24dp"
+                        android:drawablePadding="9dp"
+                        android:fontFamily="roboto"
+                        android:hint="Password"
+                        android:inputType="textPassword"
+                        android:padding="10dp"
+
+                        android:textColor="@color/bar_dribble"
+                        android:textColorHint="@color/bar_dribble" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.2dp"
+                        />
+                    <EditText
+                        android:visibility="gone"
+                        android:textSize="18sp"
+                        android:id="@+id/editTextPhone"
+                        style="@style/EditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:drawableLeft="@drawable/ic_phone_android_black_24dp"
+                        android:drawablePadding="9dp"
+                        android:fontFamily="roboto"
+                        android:hint="Phone Number"
+                        android:inputType="number"
+                        android:padding="10dp"
+
+                        android:textColor="@color/bar_dribble"
+                        android:textColorHint="@color/bar_dribble" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="2dp"
+                        />
+
+
+                    <Button
+                        android:id="@+id/Register_button"
+                        style="@style/ButtonCodeEntry"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary"
+                        android:fontFamily="Roboto"
+                        android:padding="15dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold|normal"
+                        android:text="Register"
+                        android:textColor="@color/bar_dribble"
+                        />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

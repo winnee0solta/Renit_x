@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "252934046641",
+    "firebase_url": "https://rentitx.firebaseio.com",
+    "project_id": "rentitx",
+    "storage_bucket": "rentitx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252934046641:android:ea6b2d5d412578fe",
+        "android_client_info": {
+          "package_name": "com.example.winnee.renit_x"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252934046641-l6un11a0543re81lnmcltj6q4g543tms.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.winnee.renit_x",
+            "certificate_hash": "092d66b4fdcb03896a130e9f01469168f336d061"
+          }
+        },
+        {
+          "client_id": "252934046641-jt5pp15v8djvug32078i6h91q16er33j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASvhrKxyj6j5kU5Z3XybA2zqNI5SKsBic"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252934046641-jt5pp15v8djvug32078i6h91q16er33j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

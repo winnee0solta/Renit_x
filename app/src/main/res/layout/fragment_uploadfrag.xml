@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.winnee.renit_x.Tabs.Uploadfrag"
+    android:background="@color/cream" >
+
+    <RelativeLayout
+        android:background="#FEFEFE"
+        android:id="@+id/yesinternet_connection"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo"
+                android:id="@+id/imageView3" />
+            <android.support.v7.widget.CardView
+                app:cardElevation="11dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="43dp"
+                android:layout_marginBottom="8dp"
+                >
+                <Button
+                    android:id="@+id/uploadarent_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:text="Show Add vako thau"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    />
+                <!--<Button-->
+                    <!--android:id="@+id/uploadarent_btn"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:background="@color/colorAccent"-->
+                    <!--android:text="Upload a Rent"-->
+                    <!--android:textAllCaps="false"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--android:textSize="15sp"-->
+                    <!--android:textStyle="bold"-->
+                    <!--/>-->
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.winnee.renit_x.UI.Splash"
+    android:background="#212121"
+    android:layout_gravity="center"
+    >
+
+    <TextView
+        android:visibility="gone"
+        android:textColor="#FEFEFE"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:text="Welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:scaleType="centerCrop"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:id="@+id/imageView2" />
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

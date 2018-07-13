@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#FEFEFE</color>
+    <color name="colorPrimaryDark">#2323</color>
+    <color name="colorAccent">#333333</color>
+
+    <!--color for button_round.xml-->
+    <color name="black_button">#080808</color>
+
+    <!--color for internet connection-->
+    <color name="text_internet_connection">#eff8f7</color>
+    <color name="background_internet_connection">#080808</color>
+
+    <!--sign in textfield-->
+    <color name="text_field_v1">#f5f5f5</color>
+    <color name="text_v1">#a2a2a2</color>
+    <color name="color3">#323232</color>
+    <color name="backgrouund_signin">#d9d7d8</color>
+    <color name="text_button">#eff8f7</color>
+    <color name="black_color_create_account">#080808</color>
+
+    <!--signup-->
+    <color name="background_signup_v1">#dad8d9</color>
+    <color name="textview_v1">#727272</color>
+
+    <!--toolbarcolor-->
+    <color name="tootlbar_white">#fefefe</color>
+
+    <!--cardview-->
+    <color name="white">#ffffff</color>
+
+    <color name="pure_black">#000000</color>
+
+    <!--dribbel batta ko-->
+    <color name="cream">#F6F6EF</color>
+    <color name="bar_dribble">#333333</color>
+    <color name="white_dribble">#FEFEFE</color>
+    <color name="background_dribble">#F3F3F3</color>
+    <color name="black_code1">#2F2E38</color>
+
+
+
+
+
+    <color name="colorTextBlack">#333333</color>
+    <color name="colorTextHint">#e1e1e1</color>
+    <color name="colorTextInfo">#9b9b9b</color>
+    <color name="colorGreen">#A5DE40</color>
+    <color name="navColor">#80FFFFFF</color>
+
+    <color name="code16">#bd081c</color>
+    <color name="code13">#679c41</color>
+
+    <color name="silver_color">#757575</color>
+
+</resources>

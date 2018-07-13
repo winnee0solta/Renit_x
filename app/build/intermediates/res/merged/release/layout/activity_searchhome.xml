@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.winnee.renit_x.UI.Searchhome"
+    android:background="@color/cream">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:theme="?actionBarTheme"
+        android:background="?colorPrimary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?actionBarSize"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <com.miguelcatalan.materialsearchview.MaterialSearchView
+        android:hint="Enter address !!"
+        android:id="@+id/search_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:searchBackground="@color/colorPrimary"
+        app:searchCloseIcon="@drawable/ic_clear_black_24dp"
+        app:searchBackIcon="@drawable/ic_action_back"
+        app:searchSuggestionIcon="@drawable/ic_suggestion"
+        app:searchSuggestionBackground="@color/colorPrimary" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id12"   >
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

@@ -1,0 +1,561 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:2:1-65:12
+	package
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] C:\Users\winnee\.android\build-cache\f8b1f36d48ca4a726f6f0475a5721451c6301a98\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\winnee\.android\build-cache\b4992cdef1a126ce0b1d4ca6c7fc4045d04c7691\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:10.0.1] C:\Users\winnee\.android\build-cache\0a51a708e60eac0b2606ddfc179af3427b3f6d15\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Users\winnee\.android\build-cache\1c3c1aed22f4de81e0853d17ac38205f863a9000\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] C:\Users\winnee\.android\build-cache\424089f441ee1f6cb5c32220b42eb518b5209681\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\winnee\.android\build-cache\4ab925e2aa80e7d63a5e0f0b2347d18264bfce08\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] C:\Users\winnee\.android\build-cache\3c0538ba122fa4f438223749a6786bac60443b1c\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\winnee\.android\build-cache\908bedd43c19d6e4f0b467b7d2abd59ca0d9aadd\output\AndroidManifest.xml:20:5-66
+MERGED from [com.firebaseui:firebase-ui-database:1.1.0] C:\Users\winnee\.android\build-cache\b5747d6ded895d83969e368da5517051425bb3d5\output\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\winnee\.android\build-cache\f2b31a744fdc06efeea2d84a50efc37cbf9b31e1\output\AndroidManifest.xml:19:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\winnee\.android\build-cache\dd72c7058facd5190785d03c6b7062a9bec82316\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\winnee\.android\build-cache\c1f1df397c0a4b103a2f27fa2d86ab9e4d733344\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] C:\Users\winnee\.android\build-cache\f8b1f36d48ca4a726f6f0475a5721451c6301a98\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:10.0.1] C:\Users\winnee\.android\build-cache\2bcaefdc19458f92d29ae33a4feb14cc511fb0d0\output\AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\winnee\.android\build-cache\4ab925e2aa80e7d63a5e0f0b2347d18264bfce08\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] C:\Users\winnee\.android\build-cache\3c0538ba122fa4f438223749a6786bac60443b1c\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\winnee\.android\build-cache\908bedd43c19d6e4f0b467b7d2abd59ca0d9aadd\output\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\winnee\.android\build-cache\f2b31a744fdc06efeea2d84a50efc37cbf9b31e1\output\AndroidManifest.xml:20:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\winnee\.android\build-cache\dd72c7058facd5190785d03c6b7062a9bec82316\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\winnee\.android\build-cache\c1f1df397c0a4b103a2f27fa2d86ab9e4d733344\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:8:22-77
+application
+ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:10:5-63:19
+MERGED from [com.google.android.gms:play-services:10.0.1] C:\Users\winnee\.android\build-cache\af9f45ba66bddeb72ca82310fbd0dd487852e37d\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] C:\Users\winnee\.android\build-cache\f8b1f36d48ca4a726f6f0475a5721451c6301a98\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\winnee\.android\build-cache\b4992cdef1a126ce0b1d4ca6c7fc4045d04c7691\output\AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\winnee\.android\build-cache\ee4242c174319efaade14706abe16b681ac0b3de\output\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\winnee\.android\build-cache\dbec0b3178fb62336b7af2de27a950eb61c9cab2\output\AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:10.0.1] C:\Users\winnee\.android\build-cache\cc3c84d3bf3ac2aa453ea97583479bff89daae07\output\AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:24.0.0] C:\Users\winnee\.android\build-cache\db8b420bbb249b8b10f7587c3888d8c97307d05d\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:palette-v7:24.0.0] C:\Users\winnee\.android\build-cache\06a67477e36201502283076c34b291b196e5b41d\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-config:10.0.1] C:\Users\winnee\.android\build-cache\ecb2562517f875d4be40d8a2848cff478adcee96\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:10.0.1] C:\Users\winnee\.android\build-cache\4dae8989e28475d13c36f1e95c8ae05070faeca2\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-crash:10.0.1] C:\Users\winnee\.android\build-cache\0a51a708e60eac0b2606ddfc179af3427b3f6d15\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\winnee\.android\build-cache\d16961314bf206aaa6c1b28bfe8207e3c1039332\output\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-fitness:10.0.1] C:\Users\winnee\.android\build-cache\3a1c7d96e99088ab6d944980d6302a0064ac5555\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:10.0.1] C:\Users\winnee\.android\build-cache\4cfbb70758dd90511c4fbf6fba77254a55abaa8a\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:10.0.1] C:\Users\winnee\.android\build-cache\945b1b4b3ed89b21f39d844c9d1f5fa618669d72\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Users\winnee\.android\build-cache\1c3c1aed22f4de81e0853d17ac38205f863a9000\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:10.0.1] C:\Users\winnee\.android\build-cache\1b4e15f169616e15308bf42fa3524240e4f3b488\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] C:\Users\winnee\.android\build-cache\424089f441ee1f6cb5c32220b42eb518b5209681\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:10.0.1] C:\Users\winnee\.android\build-cache\818a479c92a2d48eda68a48b830b76b718379a89\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-nearby:10.0.1] C:\Users\winnee\.android\build-cache\2bcaefdc19458f92d29ae33a4feb14cc511fb0d0\output\AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:10.0.1] C:\Users\winnee\.android\build-cache\429b146e54b7c62233c79d6eb5fcc24dddae47a7\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:10.0.1] C:\Users\winnee\.android\build-cache\39902cf1e2235750f975d8cd1c2cfb2ef3a7e5ce\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:10.0.1] C:\Users\winnee\.android\build-cache\e0bb6d868ab962557398cb9aaab58e9f5b21b9d7\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:10.0.1] C:\Users\winnee\.android\build-cache\619961a2663a0c37d33904017e2c5508bb923f4c\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\winnee\.android\build-cache\4ab925e2aa80e7d63a5e0f0b2347d18264bfce08\output\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.0.1] C:\Users\winnee\.android\build-cache\72beaa3ad86bd9fa6d7ab76d4b8c0a325e9d766a\output\AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] C:\Users\winnee\.android\build-cache\3c0538ba122fa4f438223749a6786bac60443b1c\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-vision:10.0.1] C:\Users\winnee\.android\build-cache\c339a53f1334658b6df9bfbc864ca1ea83b16ef4\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-identity:10.0.1] C:\Users\winnee\.android\build-cache\ce63c8c2b9dbed1faa6d4ca650f4a331e2830104\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\winnee\.android\build-cache\908bedd43c19d6e4f0b467b7d2abd59ca0d9aadd\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-wearable:10.0.1] C:\Users\winnee\.android\build-cache\cbe15e46e4f3ddb923c49e4006dac5b6c7600e21\output\AndroidManifest.xml:18:5-19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\winnee\.android\build-cache\65e090a8944cfbd7b53ce1ce44f42820aa7ff202\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\winnee\.android\build-cache\29548728894e1716996102889bc38fcf7075b4c0\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\winnee\.android\build-cache\617cad241d88f336af4d15b68659b4641f9ba945\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.miguelcatalan:materialsearchview:1.4.0] C:\Users\winnee\.android\build-cache\54c62cf0b35474486e9dfc8021561aa1f7d83e75\output\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\winnee\.android\build-cache\4d635256869aff767e932dbd6f71908582a2324a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\winnee\.android\build-cache\e715a299500ab43c9d9ce0208a6af2f4d8349e7e\output\AndroidManifest.xml:26:5-20
+MERGED from [com.firebaseui:firebase-ui-database:1.1.0] C:\Users\winnee\.android\build-cache\b5747d6ded895d83969e368da5517051425bb3d5\output\AndroidManifest.xml:13:5-17:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\winnee\.android\build-cache\f38371ede2357b12cccf6b1343e97c3931d02203\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\winnee\.android\build-cache\6ee67b9c21276b8b78501cbc963dd03e64a26389\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\winnee\.android\build-cache\7e4ea3bbf38ec98cb7c7001894cd8aa353136a6b\output\AndroidManifest.xml:22:5-26:19
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\winnee\.android\build-cache\a9ac709290cadb01dcd85fbd6d1dc61afc552928\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-ads:10.0.1] C:\Users\winnee\.android\build-cache\3cef0ae2583cb7b683b287ae092940868a8de093\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\winnee\.android\build-cache\f2b31a744fdc06efeea2d84a50efc37cbf9b31e1\output\AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-clearcut:10.0.1] C:\Users\winnee\.android\build-cache\27c79bb96f405128037c072ec35eb1312bc31dab\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\winnee\.android\build-cache\e2f4fb4076fbfadb7e396f1fcff80432f86e7ec4\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-gass:10.0.1] C:\Users\winnee\.android\build-cache\03ebd0db64a171f58a8348bfca37e47c5a33c5c4\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\winnee\.android\build-cache\b3877795a9bfd4047d490d7fb6761b63122fdecc\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\winnee\.android\build-cache\dd72c7058facd5190785d03c6b7062a9bec82316\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\winnee\.android\build-cache\c1f1df397c0a4b103a2f27fa2d86ab9e4d733344\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\winnee\.android\build-cache\b2e3680473dab774f28f62389b99b884a40e3b77\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\winnee\.android\build-cache\e06bb79d0a6ddff1ad8b194432111773fd13f6b2\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\winnee\.android\build-cache\0fa1a597379083bb1ceda5db5f16de937e017101\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\winnee\.android\build-cache\be72ee0168a17174d3df7dbaeb57efb2cc09df35\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\winnee\.android\build-cache\77b63739066d071c653de8b05d4a7b80506f066c\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\winnee\.android\build-cache\839e0218bc7d01d38cdac4ab778d0afd608930d3\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\winnee\.android\build-cache\d36c34e95f62e79c128609a963821c5ce5c5905a\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\winnee\.android\build-cache\2dfe21c3b3ec6b433b55790883ab26059c2fa59e\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\winnee\.android\build-cache\6408807106d5287fd2d24d98baee1540f98e6f76\output\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\winnee\.android\build-cache\1a3cc3569ba0c6c64d7f315bb0f596e5db218e8c\output\AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:14:9-41
+	android:supportsRtl
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:16:9-35
+	android:roundIcon
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:15:9-54
+	android:allowBackup
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:13:9-43
+	android:theme
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:17:9-40
+	android:name
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:11:9-38
+activity#com.theartofdev.edmodo.cropper.CropImageActivity
+ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:18:9-20:59
+	android:theme
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:20:13-56
+	android:name
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:19:13-76
+activity#com.example.winnee.renit_x.UI.Splash
+ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:21:9-29:20
+	android:screenOrientation
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:23:13-49
+	android:name
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:22:13-38
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:27:27-74
+activity#com.example.winnee.renit_x.Security.Login
+ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:30:9-32:52
+	android:screenOrientation
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:32:13-49
+	android:name
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:31:13-43
+activity#com.example.winnee.renit_x.Security.Register
+ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:33:9-35:52
+	android:screenOrientation
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:35:13-49
+	android:name
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:34:13-46
+activity#com.example.winnee.renit_x.UI.TabHolder
+ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:36:9-40:47
+	android:screenOrientation
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:39:13-49
+	android:label
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:38:13-62
+	android:theme
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:40:13-44
+	android:name
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:37:13-41
+activity#com.example.winnee.renit_x.UI.Searchhome
+ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:41:9-43:52
+	android:screenOrientation
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:43:13-49
+	android:name
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:42:13-42
+activity#com.example.winnee.renit_x.UI.Postrent
+ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:44:9-46:52
+	android:screenOrientation
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:46:13-49
+	android:name
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:45:13-40
+activity#com.example.winnee.renit_x.Profile.Myposts
+ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:47:9-49:52
+	android:screenOrientation
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:49:13-49
+	android:name
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:48:13-44
+activity#com.example.winnee.renit_x.UI.SingleRentview
+ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:50:9-52:52
+	android:screenOrientation
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:52:13-49
+	android:name
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:51:13-46
+activity#com.example.winnee.renit_x.Profile.EditProfile
+ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:53:9-55:52
+	android:screenOrientation
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:55:13-49
+	android:name
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:54:13-48
+activity#com.example.winnee.renit_x.UI.SinglePhotoView
+ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:56:9-58:52
+	android:screenOrientation
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:58:13-49
+	android:name
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:57:13-47
+activity#com.example.winnee.renit_x.UI.SingleMyRentview
+ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:59:9-61:52
+	android:screenOrientation
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:61:13-49
+	android:name
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:60:13-48
+activity#com.example.winnee.renit_x.admin.Ads
+ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:62:9-56
+	android:name
+		ADDED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml:62:19-44
+uses-sdk
+INJECTED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\winnee\.android\build-cache\3cc1add5f5b6850c169e8d1f02e0e230559f00cc\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services:10.0.1] C:\Users\winnee\.android\build-cache\af9f45ba66bddeb72ca82310fbd0dd487852e37d\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] C:\Users\winnee\.android\build-cache\f8b1f36d48ca4a726f6f0475a5721451c6301a98\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\winnee\.android\build-cache\b4992cdef1a126ce0b1d4ca6c7fc4045d04c7691\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\winnee\.android\build-cache\ee4242c174319efaade14706abe16b681ac0b3de\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth-base:10.0.1] C:\Users\winnee\.android\build-cache\2927723c3ace5d532a19020c7c84c1de53508b97\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\winnee\.android\build-cache\dbec0b3178fb62336b7af2de27a950eb61c9cab2\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-cast:10.0.1] C:\Users\winnee\.android\build-cache\cc3c84d3bf3ac2aa453ea97583479bff89daae07\output\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:mediarouter-v7:24.0.0] C:\Users\winnee\.android\build-cache\db8b420bbb249b8b10f7587c3888d8c97307d05d\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:24.0.0] C:\Users\winnee\.android\build-cache\06a67477e36201502283076c34b291b196e5b41d\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-config:10.0.1] C:\Users\winnee\.android\build-cache\ecb2562517f875d4be40d8a2848cff478adcee96\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-awareness:10.0.1] C:\Users\winnee\.android\build-cache\4dae8989e28475d13c36f1e95c8ae05070faeca2\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-crash:10.0.1] C:\Users\winnee\.android\build-cache\0a51a708e60eac0b2606ddfc179af3427b3f6d15\output\AndroidManifest.xml:20:5-42
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\winnee\.android\build-cache\d16961314bf206aaa6c1b28bfe8207e3c1039332\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-fitness:10.0.1] C:\Users\winnee\.android\build-cache\3a1c7d96e99088ab6d944980d6302a0064ac5555\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-games:10.0.1] C:\Users\winnee\.android\build-cache\4cfbb70758dd90511c4fbf6fba77254a55abaa8a\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-drive:10.0.1] C:\Users\winnee\.android\build-cache\945b1b4b3ed89b21f39d844c9d1f5fa618669d72\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Users\winnee\.android\build-cache\1c3c1aed22f4de81e0853d17ac38205f863a9000\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-appindexing:10.0.1] C:\Users\winnee\.android\build-cache\1b4e15f169616e15308bf42fa3524240e4f3b488\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] C:\Users\winnee\.android\build-cache\424089f441ee1f6cb5c32220b42eb518b5209681\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-instantapps:10.0.1] C:\Users\winnee\.android\build-cache\04e3d649dd74a7cb2922b057d02b518252ae9b3b\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-location:10.0.1] C:\Users\winnee\.android\build-cache\818a479c92a2d48eda68a48b830b76b718379a89\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-nearby:10.0.1] C:\Users\winnee\.android\build-cache\2bcaefdc19458f92d29ae33a4feb14cc511fb0d0\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-panorama:10.0.1] C:\Users\winnee\.android\build-cache\429b146e54b7c62233c79d6eb5fcc24dddae47a7\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-places:10.0.1] C:\Users\winnee\.android\build-cache\39902cf1e2235750f975d8cd1c2cfb2ef3a7e5ce\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-plus:10.0.1] C:\Users\winnee\.android\build-cache\e0bb6d868ab962557398cb9aaab58e9f5b21b9d7\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:10.0.1] C:\Users\winnee\.android\build-cache\619961a2663a0c37d33904017e2c5508bb923f4c\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager:10.0.1] C:\Users\winnee\.android\build-cache\f8d3f32b404e0d02a673287668e5bd4c618a3796\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\winnee\.android\build-cache\4ab925e2aa80e7d63a5e0f0b2347d18264bfce08\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.0.1] C:\Users\winnee\.android\build-cache\72beaa3ad86bd9fa6d7ab76d4b8c0a325e9d766a\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] C:\Users\winnee\.android\build-cache\3c0538ba122fa4f438223749a6786bac60443b1c\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-vision:10.0.1] C:\Users\winnee\.android\build-cache\c339a53f1334658b6df9bfbc864ca1ea83b16ef4\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-wallet:10.0.1] C:\Users\winnee\.android\build-cache\a3f525388c77a7954ff96382cfac530759128c6c\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-identity:10.0.1] C:\Users\winnee\.android\build-cache\ce63c8c2b9dbed1faa6d4ca650f4a331e2830104\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\winnee\.android\build-cache\908bedd43c19d6e4f0b467b7d2abd59ca0d9aadd\output\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-wearable:10.0.1] C:\Users\winnee\.android\build-cache\cbe15e46e4f3ddb923c49e4006dac5b6c7600e21\output\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\winnee\.android\build-cache\65e090a8944cfbd7b53ce1ce44f42820aa7ff202\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\winnee\.android\build-cache\29548728894e1716996102889bc38fcf7075b4c0\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:10.0.1] C:\Users\winnee\.android\build-cache\617cad241d88f336af4d15b68659b4641f9ba945\output\AndroidManifest.xml:17:5-42
+MERGED from [com.miguelcatalan:materialsearchview:1.4.0] C:\Users\winnee\.android\build-cache\54c62cf0b35474486e9dfc8021561aa1f7d83e75\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\winnee\.android\build-cache\4d635256869aff767e932dbd6f71908582a2324a\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\winnee\.android\build-cache\e715a299500ab43c9d9ce0208a6af2f4d8349e7e\output\AndroidManifest.xml:20:5-44
+MERGED from [com.firebaseui:firebase-ui-database:1.1.0] C:\Users\winnee\.android\build-cache\b5747d6ded895d83969e368da5517051425bb3d5\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-database:10.0.1] C:\Users\winnee\.android\build-cache\30fe868d36d360761c01abeca34a1312ec11d18d\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database-connection:10.0.1] C:\Users\winnee\.android\build-cache\d7f5d6a8a12c3634cbc88e2c27c76b58fedd3c1d\output\AndroidManifest.xml:3:5-42
+MERGED from [jp.wasabeef:glide-transformations:2.0.1] C:\Users\winnee\.android\build-cache\445e38cbd5933ee65e760f2c7c01e8107f923696\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.chrisbanes:PhotoView:2.1.3] C:\Users\winnee\.android\build-cache\1e19d196d3db242b9356da68a31c5c86ee5cae8a\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.4.1] C:\Users\winnee\.android\build-cache\5b251d5ba67daa96ddbb3a52d48104dde906a9da\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\winnee\.android\build-cache\f38371ede2357b12cccf6b1343e97c3931d02203\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\winnee\.android\build-cache\6ee67b9c21276b8b78501cbc963dd03e64a26389\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\winnee\.android\build-cache\7e4ea3bbf38ec98cb7c7001894cd8aa353136a6b\output\AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\winnee\.android\build-cache\a9ac709290cadb01dcd85fbd6d1dc61afc552928\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\winnee\.android\build-cache\dce77ced57de3267e6d5a775f50211fa28a9322b\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage:10.0.1] C:\Users\winnee\.android\build-cache\538b6e5f6233f9b5ceca925e89425a52e894406b\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-storage-common:10.0.1] C:\Users\winnee\.android\build-cache\f7692dc5bab4fcf36707320a656efdd76257d868\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-ads:10.0.1] C:\Users\winnee\.android\build-cache\3cef0ae2583cb7b683b287ae092940868a8de093\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-ads:10.0.1] C:\Users\winnee\.android\build-cache\e8ce7e9c0d23371b24c3058ec3d6317cae929178\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\winnee\.android\build-cache\f2b31a744fdc06efeea2d84a50efc37cbf9b31e1\output\AndroidManifest.xml:22:5-42
+MERGED from [com.google.android.gms:play-services-clearcut:10.0.1] C:\Users\winnee\.android\build-cache\27c79bb96f405128037c072ec35eb1312bc31dab\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\winnee\.android\build-cache\e2f4fb4076fbfadb7e396f1fcff80432f86e7ec4\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-gass:10.0.1] C:\Users\winnee\.android\build-cache\03ebd0db64a171f58a8348bfca37e47c5a33c5c4\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Users\winnee\.android\build-cache\b3877795a9bfd4047d490d7fb6761b63122fdecc\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\winnee\.android\build-cache\dd72c7058facd5190785d03c6b7062a9bec82316\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\winnee\.android\build-cache\c1f1df397c0a4b103a2f27fa2d86ab9e4d733344\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Users\winnee\.android\build-cache\b2e3680473dab774f28f62389b99b884a40e3b77\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Users\winnee\.android\build-cache\e06bb79d0a6ddff1ad8b194432111773fd13f6b2\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\winnee\.android\build-cache\0fa1a597379083bb1ceda5db5f16de937e017101\output\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\winnee\.android\build-cache\be72ee0168a17174d3df7dbaeb57efb2cc09df35\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\winnee\.android\build-cache\77b63739066d071c653de8b05d4a7b80506f066c\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\winnee\.android\build-cache\839e0218bc7d01d38cdac4ab778d0afd608930d3\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\winnee\.android\build-cache\d36c34e95f62e79c128609a963821c5ce5c5905a\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\winnee\.android\build-cache\2dfe21c3b3ec6b433b55790883ab26059c2fa59e\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\winnee\.android\build-cache\6408807106d5287fd2d24d98baee1540f98e6f76\output\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\winnee\.android\build-cache\1a3cc3569ba0c6c64d7f315bb0f596e5db218e8c\output\AndroidManifest.xml:20:5-22:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\winnee\.android\build-cache\4d635256869aff767e932dbd6f71908582a2324a\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\winnee\Desktop\Android_projects\Renit_x\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:10.0.1] C:\Users\winnee\.android\build-cache\f8b1f36d48ca4a726f6f0475a5721451c6301a98\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] C:\Users\winnee\.android\build-cache\3c0538ba122fa4f438223749a6786bac60443b1c\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\winnee\.android\build-cache\dd72c7058facd5190785d03c6b7062a9bec82316\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\winnee\.android\build-cache\c1f1df397c0a4b103a2f27fa2d86ab9e4d733344\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:10.0.1] C:\Users\winnee\.android\build-cache\f8b1f36d48ca4a726f6f0475a5721451c6301a98\output\AndroidManifest.xml:24:22-65
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\winnee\.android\build-cache\b4992cdef1a126ce0b1d4ca6c7fc4045d04c7691\output\AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\winnee\.android\build-cache\b4992cdef1a126ce0b1d4ca6c7fc4045d04c7691\output\AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\winnee\.android\build-cache\b4992cdef1a126ce0b1d4ca6c7fc4045d04c7691\output\AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\winnee\.android\build-cache\b4992cdef1a126ce0b1d4ca6c7fc4045d04c7691\output\AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\winnee\.android\build-cache\b4992cdef1a126ce0b1d4ca6c7fc4045d04c7691\output\AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\winnee\.android\build-cache\b4992cdef1a126ce0b1d4ca6c7fc4045d04c7691\output\AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\winnee\.android\build-cache\b4992cdef1a126ce0b1d4ca6c7fc4045d04c7691\output\AndroidManifest.xml:22:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\winnee\.android\build-cache\b4992cdef1a126ce0b1d4ca6c7fc4045d04c7691\output\AndroidManifest.xml:23:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] C:\Users\winnee\.android\build-cache\b4992cdef1a126ce0b1d4ca6c7fc4045d04c7691\output\AndroidManifest.xml:23:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\winnee\.android\build-cache\ee4242c174319efaade14706abe16b681ac0b3de\output\AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\winnee\.android\build-cache\ee4242c174319efaade14706abe16b681ac0b3de\output\AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\winnee\.android\build-cache\ee4242c174319efaade14706abe16b681ac0b3de\output\AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\winnee\.android\build-cache\ee4242c174319efaade14706abe16b681ac0b3de\output\AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\winnee\.android\build-cache\ee4242c174319efaade14706abe16b681ac0b3de\output\AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\winnee\.android\build-cache\ee4242c174319efaade14706abe16b681ac0b3de\output\AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\winnee\.android\build-cache\ee4242c174319efaade14706abe16b681ac0b3de\output\AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\winnee\.android\build-cache\ee4242c174319efaade14706abe16b681ac0b3de\output\AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] C:\Users\winnee\.android\build-cache\ee4242c174319efaade14706abe16b681ac0b3de\output\AndroidManifest.xml:24:18-63
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\winnee\.android\build-cache\dbec0b3178fb62336b7af2de27a950eb61c9cab2\output\AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\winnee\.android\build-cache\dbec0b3178fb62336b7af2de27a950eb61c9cab2\output\AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\winnee\.android\build-cache\dbec0b3178fb62336b7af2de27a950eb61c9cab2\output\AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\winnee\.android\build-cache\dbec0b3178fb62336b7af2de27a950eb61c9cab2\output\AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\winnee\.android\build-cache\dbec0b3178fb62336b7af2de27a950eb61c9cab2\output\AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] C:\Users\winnee\.android\build-cache\dbec0b3178fb62336b7af2de27a950eb61c9cab2\output\AndroidManifest.xml:7:18-90
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\winnee\.android\build-cache\d16961314bf206aaa6c1b28bfe8207e3c1039332\output\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\winnee\.android\build-cache\d16961314bf206aaa6c1b28bfe8207e3c1039332\output\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\winnee\.android\build-cache\d16961314bf206aaa6c1b28bfe8207e3c1039332\output\AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\winnee\.android\build-cache\d16961314bf206aaa6c1b28bfe8207e3c1039332\output\AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\winnee\.android\build-cache\d16961314bf206aaa6c1b28bfe8207e3c1039332\output\AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\winnee\.android\build-cache\d16961314bf206aaa6c1b28bfe8207e3c1039332\output\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] C:\Users\winnee\.android\build-cache\d16961314bf206aaa6c1b28bfe8207e3c1039332\output\AndroidManifest.xml:25:25-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Users\winnee\.android\build-cache\1c3c1aed22f4de81e0853d17ac38205f863a9000\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] C:\Users\winnee\.android\build-cache\424089f441ee1f6cb5c32220b42eb518b5209681\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Users\winnee\.android\build-cache\1c3c1aed22f4de81e0853d17ac38205f863a9000\output\AndroidManifest.xml:20:22-79
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\winnee\.android\build-cache\4ab925e2aa80e7d63a5e0f0b2347d18264bfce08\output\AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\winnee\.android\build-cache\4ab925e2aa80e7d63a5e0f0b2347d18264bfce08\output\AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\winnee\.android\build-cache\4ab925e2aa80e7d63a5e0f0b2347d18264bfce08\output\AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\winnee\.android\build-cache\4ab925e2aa80e7d63a5e0f0b2347d18264bfce08\output\AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\winnee\.android\build-cache\4ab925e2aa80e7d63a5e0f0b2347d18264bfce08\output\AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\winnee\.android\build-cache\4ab925e2aa80e7d63a5e0f0b2347d18264bfce08\output\AndroidManifest.xml:25:94-118
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\winnee\.android\build-cache\4ab925e2aa80e7d63a5e0f0b2347d18264bfce08\output\AndroidManifest.xml:25:19-93
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\winnee\.android\build-cache\4ab925e2aa80e7d63a5e0f0b2347d18264bfce08\output\AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\winnee\.android\build-cache\4ab925e2aa80e7d63a5e0f0b2347d18264bfce08\output\AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\winnee\.android\build-cache\4ab925e2aa80e7d63a5e0f0b2347d18264bfce08\output\AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\winnee\.android\build-cache\4ab925e2aa80e7d63a5e0f0b2347d18264bfce08\output\AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\winnee\.android\build-cache\4ab925e2aa80e7d63a5e0f0b2347d18264bfce08\output\AndroidManifest.xml:28:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\winnee\.android\build-cache\4ab925e2aa80e7d63a5e0f0b2347d18264bfce08\output\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] C:\Users\winnee\.android\build-cache\4ab925e2aa80e7d63a5e0f0b2347d18264bfce08\output\AndroidManifest.xml:30:27-75
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\winnee\.android\build-cache\908bedd43c19d6e4f0b467b7d2abd59ca0d9aadd\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\winnee\.android\build-cache\908bedd43c19d6e4f0b467b7d2abd59ca0d9aadd\output\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] C:\Users\winnee\.android\build-cache\908bedd43c19d6e4f0b467b7d2abd59ca0d9aadd\output\AndroidManifest.xml:21:52-75
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\winnee\.android\build-cache\29548728894e1716996102889bc38fcf7075b4c0\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\winnee\.android\build-cache\4d635256869aff767e932dbd6f71908582a2324a\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\winnee\.android\build-cache\e715a299500ab43c9d9ce0208a6af2f4d8349e7e\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\winnee\.android\build-cache\6ee67b9c21276b8b78501cbc963dd03e64a26389\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\winnee\.android\build-cache\7e4ea3bbf38ec98cb7c7001894cd8aa353136a6b\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\winnee\.android\build-cache\dce77ced57de3267e6d5a775f50211fa28a9322b\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\winnee\.android\build-cache\be72ee0168a17174d3df7dbaeb57efb2cc09df35\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\winnee\.android\build-cache\77b63739066d071c653de8b05d4a7b80506f066c\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\winnee\.android\build-cache\839e0218bc7d01d38cdac4ab778d0afd608930d3\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\winnee\.android\build-cache\d36c34e95f62e79c128609a963821c5ce5c5905a\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\winnee\.android\build-cache\2dfe21c3b3ec6b433b55790883ab26059c2fa59e\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\winnee\.android\build-cache\6408807106d5287fd2d24d98baee1540f98e6f76\output\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\winnee\.android\build-cache\29548728894e1716996102889bc38fcf7075b4c0\output\AndroidManifest.xml:24:9-38
+	android:name
+		ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\winnee\.android\build-cache\29548728894e1716996102889bc38fcf7075b4c0\output\AndroidManifest.xml:23:9-47
+meta-data#com.google.android.gms.version
+ADDED from [com.firebaseui:firebase-ui-database:1.1.0] C:\Users\winnee\.android\build-cache\b5747d6ded895d83969e368da5517051425bb3d5\output\AndroidManifest.xml:14:9-16:69
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Users\winnee\.android\build-cache\0fa1a597379083bb1ceda5db5f16de937e017101\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-database:1.1.0] C:\Users\winnee\.android\build-cache\b5747d6ded895d83969e368da5517051425bb3d5\output\AndroidManifest.xml:16:13-66
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-database:1.1.0] C:\Users\winnee\.android\build-cache\b5747d6ded895d83969e368da5517051425bb3d5\output\AndroidManifest.xml:15:13-58
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\winnee\.android\build-cache\f2b31a744fdc06efeea2d84a50efc37cbf9b31e1\output\AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\winnee\.android\build-cache\f2b31a744fdc06efeea2d84a50efc37cbf9b31e1\output\AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\winnee\.android\build-cache\f2b31a744fdc06efeea2d84a50efc37cbf9b31e1\output\AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\winnee\.android\build-cache\f2b31a744fdc06efeea2d84a50efc37cbf9b31e1\output\AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\winnee\.android\build-cache\f2b31a744fdc06efeea2d84a50efc37cbf9b31e1\output\AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\winnee\.android\build-cache\f2b31a744fdc06efeea2d84a50efc37cbf9b31e1\output\AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\Users\winnee\.android\build-cache\f2b31a744fdc06efeea2d84a50efc37cbf9b31e1\output\AndroidManifest.xml:26:19-91
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\winnee\.android\build-cache\e2f4fb4076fbfadb7e396f1fcff80432f86e7ec4\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\winnee\.android\build-cache\e2f4fb4076fbfadb7e396f1fcff80432f86e7ec4\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\winnee\.android\build-cache\e2f4fb4076fbfadb7e396f1fcff80432f86e7ec4\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Users\winnee\.android\build-cache\e2f4fb4076fbfadb7e396f1fcff80432f86e7ec4\output\AndroidManifest.xml:19:19-85
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\winnee\.android\build-cache\dd72c7058facd5190785d03c6b7062a9bec82316\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\winnee\.android\build-cache\c1f1df397c0a4b103a2f27fa2d86ab9e4d733344\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\winnee\.android\build-cache\dd72c7058facd5190785d03c6b7062a9bec82316\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\winnee\.android\build-cache\dd72c7058facd5190785d03c6b7062a9bec82316\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\winnee\.android\build-cache\dd72c7058facd5190785d03c6b7062a9bec82316\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\winnee\.android\build-cache\dd72c7058facd5190785d03c6b7062a9bec82316\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\winnee\.android\build-cache\dd72c7058facd5190785d03c6b7062a9bec82316\output\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\winnee\.android\build-cache\dd72c7058facd5190785d03c6b7062a9bec82316\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\winnee\.android\build-cache\dd72c7058facd5190785d03c6b7062a9bec82316\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\winnee\.android\build-cache\dd72c7058facd5190785d03c6b7062a9bec82316\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\winnee\.android\build-cache\dd72c7058facd5190785d03c6b7062a9bec82316\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\winnee\.android\build-cache\dd72c7058facd5190785d03c6b7062a9bec82316\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\winnee\.android\build-cache\dd72c7058facd5190785d03c6b7062a9bec82316\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Users\winnee\.android\build-cache\c1f1df397c0a4b103a2f27fa2d86ab9e4d733344\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\winnee\.android\build-cache\dd72c7058facd5190785d03c6b7062a9bec82316\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\winnee\.android\build-cache\dd72c7058facd5190785d03c6b7062a9bec82316\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Users\winnee\.android\build-cache\dd72c7058facd5190785d03c6b7062a9bec82316\output\AndroidManifest.xml:32:16-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:32:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:44:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:45:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:46:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Users\winnee\.android\build-cache\7e6405b7c37bd2372eefe6ef64cfacb027afafe2\output\AndroidManifest.xml:46:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\winnee\.android\build-cache\b2e3680473dab774f28f62389b99b884a40e3b77\output\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\winnee\.android\build-cache\b2e3680473dab774f28f62389b99b884a40e3b77\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\winnee\.android\build-cache\b2e3680473dab774f28f62389b99b884a40e3b77\output\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\winnee\.android\build-cache\b2e3680473dab774f28f62389b99b884a40e3b77\output\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Users\winnee\.android\build-cache\b2e3680473dab774f28f62389b99b884a40e3b77\output\AndroidManifest.xml:6:79-143
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\winnee\.android\build-cache\1a3cc3569ba0c6c64d7f315bb0f596e5db218e8c\output\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\winnee\.android\build-cache\1a3cc3569ba0c6c64d7f315bb0f596e5db218e8c\output\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\winnee\.android\build-cache\1a3cc3569ba0c6c64d7f315bb0f596e5db218e8c\output\AndroidManifest.xml:26:13-58

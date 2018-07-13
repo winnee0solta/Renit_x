@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6"
+    android:id="@+id/setting_fragment">
+
+    <!--for internet connectionn-->
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:background="#f7f7f7"
+        android:id="@+id/nointernet_connection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:src="@drawable/internetcon"
+            android:id="@+id/imageView" />
+        <TextView
+            android:id="@+id/profile_displayname"
+            android:textSize="30sp"
+            android:textColor="#A1A1A1"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Whoops!"
+            android:textStyle="bold"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#A1A1A8"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Internet Connection Found .Check\nYour Internet Connection"
+            android:textStyle="bold"
+            android:layout_marginTop="18dp"
+            android:layout_below="@+id/profile_displayname"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/yesinternet_connection"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_below="@+id/register_app_bar"
+            android:id="@+id/main_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.AppBarLayout
+
+                android:id="@+id/appbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <android.support.design.widget.CollapsingToolbarLayout
+                    android:id="@+id/collapsing_toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:fitsSystemWindows="true"
+                    app:contentScrim="?attr/colorPrimary"
+                    app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+                    <RelativeLayout
+                        app:layout_collapseMode="parallax"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <ImageView
+                            android:id="@+id/imagebackground"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/yaka" />
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/ppimageview"
+                            android:layout_centerInParent="true"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/yaka"/>
+
+                    </RelativeLayout>
+
+                    <android.support.v7.widget.Toolbar
+                        android:id="@+id/setting_app_bar"
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize"
+                        android:background="@android:color/transparent"
+                        app:layout_collapseMode="pin"
+                        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+
+                    </android.support.v7.widget.Toolbar>
+                </android.support.design.widget.CollapsingToolbarLayout>
+
+            </android.support.design.widget.AppBarLayout>
+
+            <android.support.v4.widget.NestedScrollView
+                android:fillViewport="true"
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/changeppimage_btn"
+                            android:background="@color/bar_dribble"
+                            android:padding="10dp"
+                            android:textAllCaps="false"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Edit Profile Image"
+                            style="@style/ButtonCodeEntry"
+                            />
+
+                        <android.support.v7.widget.CardView
+                            android:layout_marginBottom="20dp"
+                            android:visibility="visible"
+                            android:layout_marginTop="10dp"
+                            app:cardElevation="6dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="18dp">
+
+                                <TableLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <TableRow>
+                                        <TextView
+                                            android:padding="10dp"
+                                            android:layout_weight="1"
+                                            android:fontFamily="roboto"
+                                            android:textSize="14sp"
+                                            android:textColor="@android:color/black"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:text="Username"
+                                            />
+                                        <TextView
+                                            android:padding="10dp"
+                                            android:layout_weight="1"
+                                            android:fontFamily="roboto"
+                                            android:textSize="14sp"
+                                            android:textColor="@android:color/black"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:text=""
+                                            android:id="@+id/user_name" />
+                                    </TableRow>
+                                    <View
+                                        android:layout_marginBottom="9dp"
+                                        android:layout_marginTop="9dp"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#DEDEDE" />
+                                    <TableRow>
+                                        <TextView
+                                            android:padding="10dp"
+                                            android:layout_weight="1"
+                                            android:fontFamily="roboto"
+                                            android:textSize="14sp"
+                                            android:textColor="@android:color/black"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:text="Email"
+                                            android:id="@+id/xtcaVias3" />
+                                        <TextView
+                                            android:padding="10dp"
+                                            android:layout_weight="1"
+                                            android:fontFamily="roboto"
+                                            android:textSize="14sp"
+                                            android:textColor="@android:color/black"
+                                            android:layout_width="0dp"
+                                            android:layout_height="wrap_content"
+                                            android:text=""
+                                            android:id="@+id/email_text" />
+                                    </TableRow>
+                                    <View
+                                        android:layout_marginBottom="9dp"
+                                        android:layout_marginTop="9dp"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="1dp"
+                                        android:background="#DEDEDE" />
+
+                                </TableLayout>
+
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+                        <Button
+                            android:id="@+id/changeusername_btn"
+                            android:background="@color/bar_dribble"
+                            android:padding="10dp"
+                            android:textAllCaps="false"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Change Username"
+                            style="@style/ButtonCodeEntry"
+                            />
+                        <View
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp"
+                            />
+                        <Button
+                            android:visibility="gone"
+                            android:id="@+id/changepassword_btn"
+                            android:background="@color/bar_dribble"
+                            android:padding="10dp"
+                            android:textAllCaps="false"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Change Password"
+                            style="@style/ButtonCodeEntry"
+                            />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp"
+                            />
+
+                        <Button
+                            android:id="@+id/logout_btn"
+                            android:padding="10dp"
+                            android:textAllCaps="false"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Logout"
+                            style="@style/ButtonCodeEntry"
+                            />
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+            </android.support.v4.widget.NestedScrollView>
+
+        </android.support.design.widget.CoordinatorLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Renit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tab_holder">TabHolder</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+
+    <string name="banner_ad_unit_id10">ca-app-pub-9369884895288344/8926818472</string>
+    <string name="banner_ad_unit_id11">ca-app-pub-9369884895288344/6109083444</string>
+    <string name="banner_ad_unit_id12">ca-app-pub-9369884895288344/9573330511</string>
+    <string name="banner_ad_unit_id13">ca-app-pub-9369884895288344/3900177910</string>
+    <string name="banner_ad_unit_id14">ca-app-pub-9369884895288344/3026079942</string>
+    <string name="banner_ad_unit_id15">ca-app-pub-9369884895288344/7947234134</string>
+    <string name="banner_ad_unit_id16">ca-app-pub-9369884895288344/5917511756</string>
+    <string name="banner_ad_unit_id17">ca-app-pub-9369884895288344/1521426582</string>
+    <string name="banner_ad_unit_id18">ca-app-pub-9369884895288344/4847972668</string>
+</resources>

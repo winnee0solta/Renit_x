@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.winnee.renit_x.admin.Ads">
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/mybutton"
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="next :-1"
+                />
+            <com.google.android.gms.ads.AdView
+                android:layout_margin="2dp"
+                android:id="@+id/adView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="LARGE_BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id10">
+            </com.google.android.gms.ads.AdView>
+
+            <com.google.android.gms.ads.AdView
+                android:layout_margin="2dp"
+                android:id="@+id/adView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id11">
+            </com.google.android.gms.ads.AdView>
+            <com.google.android.gms.ads.AdView
+                android:layout_margin="2dp"
+                android:id="@+id/adView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id12">
+            </com.google.android.gms.ads.AdView>
+
+            <com.google.android.gms.ads.AdView
+                android:layout_margin="2dp"
+                android:id="@+id/adView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="LARGE_BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id13">
+            </com.google.android.gms.ads.AdView>
+
+            <com.google.android.gms.ads.AdView
+                android:layout_margin="2dp"
+                android:id="@+id/adView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id14">
+            </com.google.android.gms.ads.AdView>
+            <com.google.android.gms.ads.AdView
+                android:layout_margin="2dp"
+                android:id="@+id/adView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id15">
+            </com.google.android.gms.ads.AdView>
+
+            <com.google.android.gms.ads.AdView
+                android:layout_margin="2dp"
+                android:id="@+id/adView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="LARGE_BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id16">
+            </com.google.android.gms.ads.AdView>
+
+            <com.google.android.gms.ads.AdView
+                android:layout_margin="2dp"
+                android:id="@+id/adView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id17">
+            </com.google.android.gms.ads.AdView>
+            <com.google.android.gms.ads.AdView
+                android:layout_margin="2dp"
+                android:id="@+id/adView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id18">
+            </com.google.android.gms.ads.AdView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

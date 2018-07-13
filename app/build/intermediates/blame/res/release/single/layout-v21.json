@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\winnee\\Desktop\\Android_projects\\Renit_x\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\winnee\\.android\\build-cache\\6408807106d5287fd2d24d98baee1540f98e6f76\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\winnee\\Desktop\\Android_projects\\Renit_x\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\winnee\\.android\\build-cache\\6408807106d5287fd2d24d98baee1540f98e6f76\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\winnee\\Desktop\\Android_projects\\Renit_x\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\winnee\\.android\\build-cache\\6408807106d5287fd2d24d98baee1540f98e6f76\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\winnee\\Desktop\\Android_projects\\Renit_x\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\place_autocomplete_fragment.xml",
+        "source": "C:\\Users\\winnee\\.android\\build-cache\\39902cf1e2235750f975d8cd1c2cfb2ef3a7e5ce\\output\\res\\layout-v21\\place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\winnee\\Desktop\\Android_projects\\Renit_x\\app\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\winnee\\.android\\build-cache\\6408807106d5287fd2d24d98baee1540f98e6f76\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    }
+]

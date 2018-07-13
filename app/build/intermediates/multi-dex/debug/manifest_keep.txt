@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:34
+-keep class com.example.winnee.renit_x.Model.RentitX { <init>(...); }
+

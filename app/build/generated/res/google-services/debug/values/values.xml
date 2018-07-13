@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">252934046641-jt5pp15v8djvug32078i6h91q16er33j.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://rentitx.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">252934046641</string>
+    <string name="google_api_key" translatable="false">AIzaSyASvhrKxyj6j5kU5Z3XybA2zqNI5SKsBic</string>
+    <string name="google_app_id" translatable="false">1:252934046641:android:ea6b2d5d412578fe</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyASvhrKxyj6j5kU5Z3XybA2zqNI5SKsBic</string>
+    <string name="google_storage_bucket" translatable="false">rentitx.appspot.com</string>
+</resources>

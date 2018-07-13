@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.winnee.renit_x.UI.Postrent"
+    android:background="@color/cream">
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include layout="@layout/main_toolbarv2"
+                android:id="@+id/upload_app_bar"/>
+
+
+            <ImageView
+                android:layout_margin="15dp"
+                android:id="@+id/imageViewUpload"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:contentDescription="Click to upload a image"
+                android:src="@drawable/uploadimage" />
+
+            <EditText
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:gravity="top"
+                android:lines="3"
+                android:id="@+id/editTexttitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Title for the rent"
+                android:background="@drawable/theme1"
+                android:padding="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+            <EditText
+                android:textSize="14sp"
+                android:gravity="top"
+                android:lines="4"
+                android:layout_marginTop="20dp"
+                android:id="@+id/editTextDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Facility and about the place"
+                android:background="@drawable/theme1"
+                android:padding="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+            <EditText
+                android:textSize="14sp"
+                android:gravity="top"
+                android:layout_marginTop="20dp"
+                android:id="@+id/editTextAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address "
+                android:background="@drawable/theme1"
+                android:padding="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                />
+            <EditText
+                android:textSize="14sp"
+                android:gravity="top"
+                android:layout_marginTop="20dp"
+                android:id="@+id/editTextprice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Price "
+                android:background="@drawable/theme1"
+                android:padding="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:inputType="number"
+                />
+            <EditText
+                android:textSize="14sp"
+                android:gravity="top"
+                android:layout_marginTop="20dp"
+                android:id="@+id/editTextcontactno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contact No "
+                android:background="@drawable/theme1"
+                android:padding="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:inputType="number"
+                />
+
+
+            <android.support.v7.widget.CardView
+                app:cardElevation="11dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                >
+                <Button
+                    android:id="@+id/uploadasnap_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:text="Post the Rent !!"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
